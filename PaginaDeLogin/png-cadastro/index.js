@@ -20,8 +20,6 @@ function cadastrarUsuario(){
     }else if(senha != cfsenha){
         alert('Digite a mesma senha nos dois campos!')
         return
-    }else {
-        alert(`Cadastrado com sucesso!! Obrigado ${nome}. Desfrute do nosso sistema!`)
     }
     
     const user = {
