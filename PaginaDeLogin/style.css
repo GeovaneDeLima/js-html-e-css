@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(21, 2, 40);
+    color: white;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.107);
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 9px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+button{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none; 
+    background-color: rgb(191, 146, 233);
+    width: 120px;
+}
+#poslogin{
+    display: none;
+}
+#poslogin img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#poslogin p{
+    margin-top: 10px;
+}
+#poslogin div{
+    margin-top: 10px;
+}
